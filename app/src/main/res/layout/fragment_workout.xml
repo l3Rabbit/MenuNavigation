@@ -8,18 +8,6 @@
     <!-- TODO: Update blank fragment layout -->
 
 
-    <TextView
-        android:text="Relax Music"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="30sp"
-        android:textColor="@color/colorPrimaryDark"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp" />
-
     <Button
         android:layout_width="80dp"
         android:layout_height="80dp"
@@ -98,6 +86,17 @@
         android:layout_below="@+id/a1"
         android:layout_alignEnd="@+id/a2" />
 
+    <TextView
+        android:text="Relax Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
