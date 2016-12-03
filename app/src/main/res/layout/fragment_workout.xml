@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.menunavigation.WorkoutFragment"
+    android:background="@drawable/images">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:text="Relax Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/a1"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:background="@drawable/buttondarkarrowrighticon"
+        android:layout_marginBottom="49dp"
+        android:layout_above="@+id/b1"
+        android:layout_toStartOf="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:background="@drawable/sleep"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/a1"
+        android:layout_marginStart="38dp"
+        android:layout_alignEnd="@+id/text2" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/b1"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:background="@drawable/pu"
+        android:layout_above="@+id/b4"
+        android:layout_alignStart="@+id/a1" />
+
+    <TextView
+        android:text="Sleep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/a2"
+        android:layout_alignBottom="@+id/a2"
+        android:layout_alignEnd="@+id/b4" />
+
+    <TextView
+        android:text="Waterfall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/b1"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_height="80dp"
+        android:id="@+id/a2"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:background="@drawable/buttonroundpauseicon"
+        android:layout_width="80dp"
+        android:layout_marginTop="11dp"
+        android:layout_alignTop="@+id/a1"
+        android:layout_toEndOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/b2"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:background="@drawable/pl"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/a1"
+        android:layout_alignEnd="@+id/a2" />
+
+
+
+</RelativeLayout>

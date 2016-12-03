@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Deeper Sleep</string>
+    <string name="txt_head">Healthy &amp; Happy Lifestyle</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+ <string name="MENU1">
+
+   เมนูที่ 1
+   \nวัตถุดิบ
+   \n– อกไก่ล้วนชั่งตอนดิบ 150 กรัม(ต้มสุก)
+   \n– เวย์รสที่ชอบ 1 ช้อน(scoop)
+   \n– น้ำเย็นจัด 250 มิล ขึ้นไป
+
+   \nสารอาหาร
+   \n– โปรตีน 45 กรัม
+   \n– คาร์บโบไฮเดรต 2-3 กรัม
+   \n– ไขมัน 1
+   พลังงานประมาณ 188-195 กิโลแคลอรี่
+    </string>
+
+</resources>
